@@ -1,0 +1,10 @@
+t = input("escreve alguma coisa ai rapaz")
+print(f"o tipo deste valor é {type(t)}")
+print(f"Tem espaços?{t.isspace()}")
+print(f"É um numero?{t.isnumeric()}")
+print(f"é alfabetico?{t.isalpha()}")
+print(f"É alfanúmerico?{t.isalnum()}")
+print(f"Esta em maiuscula?{t.isupper()}")
+print(f"Esta em minuscula?{t.islower()}")
+print(f"Esta capitalizada?{t.istitle()}")
+ 
